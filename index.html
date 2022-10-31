@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Calculando El Total | Johhan Urrutia</title>
+</head>
+<body>
+    <main class="d-flex vw-100 vh-100 justify-content-center align-items-center">
+        <div class="card bg-success" id="cardUno" style="width: 18rem;">
+            <img src="assets/imgs/PCGamerAMD.png" class="card-img-top" alt="...">
+            <div class="card-body p-5 d-flex flex-column justify-content-center align-items-center">
+              <h5 class="card-title mb-3">Laptop Gamer AMD</h5>
+              <input class="w-100 mb-3" id="CantidadIngresada" type="number" placeholder="Cantidad">
+              <input class="w-100" id="ColorIngresado" type="color">
+              <h4>Precio</h4>
+              <h4>400000</h4>
+              <button type="button" class="btn btn-danger" id="BotonCalcular">Calcular Total</button>
+              <h4 id="MensajeError" class="MensajeErrorStyle"></h4>
+            </div>
+        </div>
+        <div class="card" id="cardDos" style="width: 18rem;">
+            <div class="card-body p-5 d-flex flex-column justify-content-center align-items-center">
+              <h4>Total:</h4>
+              <h3 id="TotalFinal">prueba</h3>
+              <h4>Cantidad:</h4>
+              <h3 id="CantidadFinal"></h3>
+              <h4>Color:</h4>
+              <div class="rounded-circle ColorFinalLaptop" id="ColorFinal"></div>
+            </div>
+        </div>
+    </main>
+ 
+    
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
